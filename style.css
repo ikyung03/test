@@ -1,0 +1,468 @@
+* {
+  margin: 0;
+  padding: 0;
+  padding: auto;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  font-family: 'ElandChoice';
+}
+h2{
+  font-size: 30px;
+}
+
+
+/*header 맨윗줄*/
+.logo {
+  margin: auto;
+  width: 100%;
+  height: auto;
+  background-color: white;
+
+}
+
+.logo_inner {
+  margin: auto;
+  width: 1250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sid {
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+input {
+  padding: 5px;
+  border-radius: 10px;
+  height: 12px;
+}
+
+.header_log {
+  margin-top: 20px;
+  width: 200px;
+  display: flex;
+  gap: 10px;
+}
+
+.icon_user,
+.icon_shopping{
+  font-size: 25px;
+}
+
+/* 안먹음 */
+.icon_user:hover,
+.icon_shopping:hover{
+  color: #1a1919;
+}
+
+main {
+  width: 100%;
+  background-color: E4E9DE;
+}
+.main_top img{
+  width: 100%;
+}
+.main_bottom {
+  margin-top: -5px;
+  width: 100%;
+  height: 90px;
+  background-color: #535050;
+}
+
+.main_bottom a p {
+  width: 100%;
+  height: 90px;
+  line-height: 90px;
+  font-size: 20px;
+  color: white;
+}
+
+.main_bottom a p:hover {
+  color: rgb(183, 238, 199);
+}
+
+/*nav*/
+nav {
+  display: flex;
+  height: 50px;
+  line-height: 50px;
+  background-color: lightslategray;
+  width: 100%;
+  margin: auto;
+}
+
+.list a i {
+  margin-left: 20px;
+  color: aliceblue;
+}
+
+.list a {
+  color: aliceblue;
+}
+
+.menu {
+  display: flex;
+  margin: auto;
+}
+
+.menu>li>a {
+  color: aliceblue;
+  margin-right: 120px;
+}
+
+/*main 사진*/
+main {
+  width: 100%;
+  margin: auto;
+}
+
+/*section*/
+.section_best {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 1250px;
+  height: 700px;
+  margin-top: 30px;
+}
+
+.section_best h2 {
+  height: 50px;
+  text-align: center;
+  padding: 20px;
+}
+
+.section_best p {
+  height: 10px;
+  text-align: center;
+  margin-top: -30px;
+}
+
+.inner_best {
+  display: flex;
+  width: 1250px;
+  justify-content: space-between;
+  margin-top: 110px;
+}
+
+.inner_best a {
+  height: 350px;
+}
+
+
+a h4 {
+  margin-top: -5px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #90deaa4d;
+  color: #535050;
+  font: bold;
+  font-size: 17px;
+}
+
+h5 {
+  height: 40px;
+  line-height: 40px;
+  background-color: #90deaa4d;
+  color: #535050;
+}
+
+.next {
+  margin-top: 80px;
+}
+
+/*new*/
+.section_new {
+  background-color: rgb(245, 253, 251);
+  margin: auto;
+  width: 100%;
+  height: 1000px;
+}
+
+.section_new h2 {
+  margin-top: 10px;
+  height: 50px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.section_new p {
+  height: 10px;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.inner_content {
+  width: 1250px;
+  margin: auto;
+}
+
+.inner_new1,
+.inner_new2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+
+
+/*review*/
+.section_review {
+  margin: auto;
+  width: 1250px;
+  height: 680px;
+}
+
+.section_review h2 {
+  height: 50px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.section_review p {
+  height: 10px;
+  text-align: center;
+  margin-top: -30px;
+}
+
+.inner_review {
+  display: flex;
+  width: 1250px;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.inner_review h5 {
+  width: 260px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/*event*/
+.section_event {
+  background-color: rgb(245, 253, 251);
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+
+.section_event h2 {
+  margin-top: 30px;
+  height: 50px;
+  text-align: center;
+  padding: 20px;
+}
+
+.section_event p {
+  height: 10px;
+  text-align: center;
+  margin-top: -30px;
+}
+
+.inner_event {
+  margin: auto;
+  display: flex;
+  margin-top: 100px;
+  width: 1250px;
+  justify-content: space-between
+}
+
+/*cm*/
+.section_cm {
+  margin: auto;
+  width: 1250px;
+  height: 700px;
+}
+
+.section_cm h2 {
+  margin-top: 30px;
+  height: 50px;
+  text-align: center;
+  padding: 20px;
+}
+
+.section_cm p {
+  height: 10px;
+  text-align: center;
+  margin-top: -30px;
+}
+
+.inner_cm {
+  display: flex;
+  width: 1250px;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.inner_cm a img{
+  border-radius: 25px;
+}
+.inner_cm a img:nth-child(1)
+{margin-right: 40px;
+}
+/*footer*/
+footer {
+  margin: auto;
+  height: 250px;
+  background-color: lightgray;
+  position: relative;
+}
+
+.footer_top {
+  height: 80px;
+  line-height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.footer_top li a {
+  margin-right: 40px;
+  color: #000;
+}
+
+.fa-brands {
+  font-size: 35px;
+  margin-top: 20px;
+  color: #535050;
+}
+/* sns icon */
+.fa-instagram:hover{
+  color: rgb(157, 16, 157);
+}
+.fa-facebook:hover{
+  color: rgb(36, 36, 228);
+}
+.fa-youtube:hover{
+  color: rgb(218, 37, 37);
+}
+.fa-twitter:hover{
+  color: rgb(0, 166, 255);
+}
+.line {
+  border: 0.2px solid rgb(110, 106, 106);
+  width: 80%;
+  margin: auto;
+}
+
+.footer_bottom {
+  margin: auto;
+  width: 100%;
+  /* margin-left: 200px; */
+}
+
+.foot {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  margin-left: 130px;
+  margin-top: 35px;
+}
+
+.footer_bottom_p {
+  border: 1px solid transparent;
+  width: 400px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_bottom_p li {
+  display: inline-block;
+  color: #000;
+  margin-right: 1px;
+  margin-bottom: 6px;
+}
+
+.copyright {
+  margin-top: 10px;
+}
+
+/*하트*/
+.inner_best a:nth-child(1),
+.inner_best a:nth-child(2),
+.inner_best a:nth-child(3),
+.inner_best a:nth-child(4) {
+  position: relative;
+}
+
+.inner_new1 a:nth-child(1),
+.inner_new1 a:nth-child(2),
+.inner_new1 a:nth-child(3),
+.inner_new1 a:nth-child(4) {
+  position: relative;
+}
+
+.inner_new2 a:nth-child(1),
+.inner_new2 a:nth-child(2),
+.inner_new2 a:nth-child(3),
+.inner_new2 a:nth-child(4) {
+  position: relative;
+}
+
+.heart {
+  position: absolute;
+  right: 20px;
+  bottom: 90px;
+  font-size: 30px;
+  color: #535050;
+}
+
+/* hover */
+
+.heart:hover {
+  color: rgb(236, 99, 99);
+  transition: 0.2s;
+}
+
+h4:hover,
+h2:hover{
+  color: darkgrey;
+  font-weight: bolder;
+  transition: 0.2s;
+}
+
+nav .menu li a:hover {
+  color: rgb(61, 66, 63);
+  font-weight: bolder;
+  transition: 0.2s;
+}
+
+
+.inner_cm {
+  position: relative;
+}
+
+.page-top {
+  position: absolute;
+  right: 150px;
+  background-color: #90DEAA;
+  width: 80px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 20px;
+  color: rgb(64, 73, 69);
+  padding: 5px;
+}
+
+.page-top:hover {
+  background-color: #497457;
+}
+
+.footer_top li a:hover {
+  color: darkgrey;
+}
+
+
+/* 푸터 로고 사진 */
+/* .bottom_logo {
+  margin-left: 90px;
+  filter: brightness(86%);
+  margin-top: -30px;
+} */
